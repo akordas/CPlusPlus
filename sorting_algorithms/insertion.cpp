@@ -7,7 +7,7 @@ void insertionSort(int* vals, int length)
 	for(j=1; j<length; j++)
 	{
 		i=j;
-		while(j>0 && vals[i-1]>vals[i])
+		while(i>0 && vals[i-1]>vals[i])
 		{
 			temp = vals[i];
 			vals[i] = vals[i-1];
